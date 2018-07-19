@@ -1,23 +1,69 @@
----
-layout: default
----
+<html>
+   <head> <!-- cerrado -->
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width">
+     <meta name="description" content="Servicios profesionales de diseño web">
+     <meta name="keywords" content="diseño de pagina web, manejo de redes">
+     <link rel="stylesheet" href="./css/style.css">
+     <title>Servicios de manejos web</title>
 
-<div class="home">
 
-  <h1 class="page-heading">Posts</h1>
+   </head> <!-- cerrado -->
+   <body>
+       <header><!-- cerrado -->
+         <div class="container"><!-- cerrado -->
+           <div id="logo"><!-- cerrado -->
+             <h1>Servicio  de paginas web</h1>
+           </div><!-- cerrado -->
+           <nav><!-- cerrado -->
+             <ul>
+               <li class="current"><a href="home.html">Inicio</a></li>
+               <li><a href="about.html">Informacion</a></li>
+               <li><a href="servicios.html">Servicios</a></li>
+             </ul>
+           </nav><!-- cerrado -->
+         </div><!-- cerrado -->
+     </header><!-- cerrado -->
+  
+  <section id="showcase"><!-- cerrado -->
+    <div class="conteinter"><!-- cerrado -->
+      <h1>Diseños de paginas web accesibles</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sollicitudin tincidunt gravida. Maecenas ex enim, elementum quis tellus vitae, feugiat vehicula justo</p>
+    </div><!-- cerrado -->
+      </section><!-- cerrado -->
+    
+    <section id="newsletter"><!-- cerrado -->
+     <div class="conteiner"><!-- cerrado -->
+       <h1>Suscribete a nuestro Newsletter</h1>
+       <form><!-- cerrado -->
+        <input type="email"; placeholder="agregue su correo">
+         <button type="submit"; class="button-1">suscribete</button>
+       </form><!-- cerrado -->
+    </div><!-- cerrado -->
+     </section><!-- cerrado -->
+     
+     <section id="boxes"><!-- cerrado -->
+       <div class="conteiner"><!-- cerrado -->
+         <div class="box"><!-- cerrado -->
+           <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/250px-HTML5_logo_and_wordmark.svg.png">
+           <h3>HTLM5</h3>
+           <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut erat est, sagittis eget neque a, auctor semper nisl. Vestibulum pulvinar justo diam</P>
+         </div><!-- cerrado -->
+          <div class="box"><!-- cerrado -->
+             <img src="http://www.gideaonline.com/wp-content/uploads/2016/10/css3_unofficial_shaped.png">
+            <h3>CSS3</h3>
+           <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut erat est, sagittis eget neque a, auctor semper nisl. Vestibulum pulvinar justo diam</P>
+         </div><!-- cerrado -->
+          <div class="box"><!-- cerrado -->
+             <img src="https://dcassetcdn.com/design_img/36288/26947/26947_694322_36288_image.png">
+           <h3>Diseño Web</h3>
+           <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut erat est, sagittis eget neque a, auctor semper nisl. Vestibulum pulvinar justo diam</P>
+         </div><!-- cerrado -->
+       </div><!-- cerrado -->
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+       <div id="button">
+       <button type="submit"; class="button-1">suscribete</button>
+     </section><!-- cerrado -->
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+     </body>
+ </html>
